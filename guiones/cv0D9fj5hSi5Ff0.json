@@ -1,0 +1,14 @@
+{
+  "1": {
+    "voz_off": "Imagina que estás construyendo una aplicación para gestionar una lista de tareas.  Sin una buena estructura, el código rápidamente se vuelve confuso y difícil de mantener. Aquí es donde entra en juego el Modelo-Vista-Controlador, o MVC.  MVC es un patrón de diseño que divide tu aplicación en tres componentes interconectados: el Modelo, que representa los datos; la Vista, que muestra los datos; y el Controlador, que maneja la interacción del usuario y actualiza el Modelo y la Vista. Piensa en ello como un equipo: el Modelo tiene la información, la Vista se encarga de la presentación y el Controlador es el que dirige todo.",
+    "descripcion": "MVC pattern, data, presentation, user interaction, application architecture, model, view, controller, software design"
+  },
+  "2": {
+    "voz_off": "Profundicemos en cada componente. El Modelo es responsable de acceder y gestionar los datos de tu aplicación. Puede ser una base de datos, un archivo o cualquier otra fuente de datos.  La Vista es lo que el usuario ve.  Presenta los datos del Modelo de una manera amigable y visual. Por ejemplo, una tabla, un formulario o un gráfico.  Finalmente, el Controlador actúa como intermediario. Cuando el usuario interactúa con la Vista, el Controlador recibe esa interacción, actualiza el Modelo si es necesario, y luego le dice a la Vista que se actualice para reflejar los cambios.  Esta separación de preocupaciones hace que el código sea más organizado, fácil de probar y mantener.",
+    "descripcion": "Model, View, Controller, data access, user interface, separation of concerns, application logic, database, testing, maintainability"
+  },
+  "3": {
+    "voz_off": "Consideremos nuestro ejemplo de la lista de tareas. El Modelo contendría la lista de tareas, con atributos como descripción, estado (completada o no), y fecha de vencimiento. La Vista mostraría estas tareas en una lista visual, permitiendo al usuario ver su estado. Y el Controlador manejaría acciones como agregar una nueva tarea, marcar una tarea como completada, o eliminar una tarea. Cuando el usuario marca una tarea como completada, el Controlador actualiza el estado de la tarea en el Modelo y luego le dice a la Vista que se actualice para mostrar la tarea como completada.  Esta es la magia de MVC: una estructura clara y organizada que facilita el desarrollo y mantenimiento de aplicaciones complejas.",
+    "descripcion": "MVC pattern, task list, data model, user interaction, application development, code organization, complex applications, data attributes, application state"
+  }
+}
